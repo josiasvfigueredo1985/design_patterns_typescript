@@ -1,1 +1,1 @@
-# deseign_patterns_typescript
+# design_patterns_typescript
