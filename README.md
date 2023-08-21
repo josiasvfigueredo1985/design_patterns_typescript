@@ -52,6 +52,8 @@ O princípio de inversão de dependência sugere que módulos de alto nível nã
 
 Exemplo: Ao invés de uma classe `Loja` depender diretamente de uma classe `BancoDeDados` para acesso aos dados, você pode criar uma interface `Repositorio` e fazer a classe `BancoDeDados` implementá-la. A classe `Loja` pode depender da abstração `Repositorio`, tornando-a mais flexível para futuras mudanças de implementação.
 
+**_Este texto foi criado com a ajuda da IA ChatGPT_**
+
 ## English
 
 # SOLID Principles - Developer Guide
@@ -87,3 +89,5 @@ Example: Instead of having a single `Worker` interface with many methods, create
 The dependency inversion principle suggests that high-level modules should not depend directly on low-level modules, but rather on abstractions. This promotes flexibility and facilitates component substitution.
 
 Example: Instead of a `Store` class directly depending on a `Database` class for data access, you can create a `Repository` interface and have the `Database` class implement it. The `Store` class can then depend on the `Repository` abstraction, making it more flexible for future implementation changes.
+
+**_This text was created using ChatGPT AI_**
