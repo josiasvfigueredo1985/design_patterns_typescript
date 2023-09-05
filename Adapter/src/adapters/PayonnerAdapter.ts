@@ -1,4 +1,4 @@
-import Payonner from "../payoneer/Payonner";
+import Payonner from "../payonner/Payonner";
 import IPayPalPayment from "../paypal/IPaypalPayment";
 import Token from "../utils/Token";
 

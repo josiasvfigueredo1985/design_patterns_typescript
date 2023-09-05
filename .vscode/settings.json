@@ -4,5 +4,18 @@
         "Payonner",
         "Português",
         "Princípio"
+    ],
+    "cSpell.language": "en,pt-BR",
+    "cSpell.enableFiletypes": [
+        "bat",
+        "csv",
+        "dockercompose",
+        "dockerfile",
+        "feature",
+        "github-actions-workflow",
+        "karate",
+        "karate-json",
+        "karate-log",
+        "mdx"
     ]
 }
