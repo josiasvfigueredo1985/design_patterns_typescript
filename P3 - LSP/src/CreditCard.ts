@@ -1,7 +1,7 @@
-import NubankCard from "./NubankCard";
+import NuBankCard from "./NuBankCard";
 // Child class from NubankCard can extends and represent the same functionality as Parent class, without unexpected behavior issues
-export default class DebitCard extends NubankCard {
+export default class CreditCard extends NuBankCard {
   validate(): void {
-    console.log("Verifying debit card limit...");
+    console.log("Verifying credit card limit...");
   }
 }

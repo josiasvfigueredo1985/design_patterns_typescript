@@ -1,6 +1,6 @@
 import IPaymentInstrument from "./IPaymentInstrument";
 // Class that implements as same the Parent class, without compromise the Parent class
-export default abstract class NubankRewards implements IPaymentInstrument {
+export default abstract class NuBankRewards implements IPaymentInstrument {
   validate(): void {
     console.log("Validating rewards score");
   }
