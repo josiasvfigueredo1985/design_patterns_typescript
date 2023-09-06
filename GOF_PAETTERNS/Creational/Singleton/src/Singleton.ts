@@ -1,3 +1,5 @@
+import DataBase from "./DataBase";
+
 export default class Singleton {
   private static instance: Singleton | null = null;
 
@@ -10,12 +12,16 @@ export default class Singleton {
     return this.instance;
   }
 
-  someMethod(): void {
-    console.log("This is a method of the Singleton instance.");
+  loginDatabase(email: string, password: string): boolean {
+    const access = DataBase.filter(
+      (item) => item.email === email && item.password === password
+    );
+    if (access.length > 0) {
+      console.log("Access granted!");
+      console.log(access);
+      return true;
+    }
+    console.log("Access denied!");
+    return false;
   }
 }
-
-const singleton1 = Singleton.getInstance();
-const singleton2 = Singleton.getInstance();
-
-console.log(singleton1 === singleton2); // true
