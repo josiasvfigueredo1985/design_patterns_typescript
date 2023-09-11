@@ -1,7 +1,7 @@
 import Cat from "./Cat";
 import Dog from "./Dog";
 
-// Use example
+// Example usage
 const originalDog = new Dog("Buddy");
 const clonedDog = originalDog.clone();
 
